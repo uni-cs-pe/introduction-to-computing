@@ -1,0 +1,15 @@
+# Lo que generan el compilador y las pruebas
+build/
+*.o
+*.a
+*.so
+*.out
+a.out
+*.dSYM/
+__pycache__/
+*.pyc
+
+# Editores y sistema
+.vscode/
+.idea/
+.DS_Store

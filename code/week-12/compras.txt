@@ -1,0 +1,5 @@
+arroz 4.50 2
+leche 3.80 6
+pan 0.50 10
+azúcar 3.20 tres
+atún 5.90 3

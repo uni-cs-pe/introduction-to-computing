@@ -1,0 +1,10 @@
+Laboratorio 1, punto 4: leer los errores de gcc
+
+Sin el ; de la línea de printf
+  Línea donde avisa gcc: ___
+  Mensaje de gcc: ___
+
+Sin la comilla que cierra el texto de printf
+  Línea del primer error: ___
+  Mensaje del primer error: ___
+  ¿Cuántos errores salen en total? ___

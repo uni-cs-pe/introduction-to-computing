@@ -1,0 +1,17 @@
+Laboratorio 1, punto 5: el vuelto de S/ 7.80, en céntimos
+
+Pseudocódigo (monedas de 500, 200, 100, 50, 20 y 10 céntimos):
+Símbolos para copiar y pegar: ← ≥
+
+algoritmo dar_vuelto(vuelto)
+    ___
+fin algoritmo
+
+Seguimiento con vuelto = 780
+(una fila por cada moneda entregada; agreguen las filas que hagan falta)
+
+moneda  vuelto
+-       780
+___     ___
+
+Total de monedas: ___

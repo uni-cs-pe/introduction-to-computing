@@ -1,0 +1,13 @@
+# Laboratorio 3: completen cada línea después del signo =.
+# Primero háganlo a mano y luego compruébenlo con lo que escriben sus programas.
+
+# Actividad 1: 202 en binario (8 bits) y en hexadecimal (2 dígitos).
+binario_202 =
+hexadecimal_202 =
+
+# Actividad 2: número de línea de int_overflow.c que indica el mensaje runtime error.
+linea_overflow =
+
+# Actividad 4: tamaño en bytes de year.txt y los dos bytes de la ñ en hexadecimal.
+bytes_year =
+bytes_enye =

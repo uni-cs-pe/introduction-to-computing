@@ -1,0 +1,3 @@
+una linea corta
+esta linea es bastante mas larga que el buffer
+otra corta

@@ -1,0 +1,8 @@
+Ana 14 9 17
+Bruno 8 diez 11
+Carla 11 11
+Diego 12 10 10
+Elena 25 18 19
+Fabio 5 7 0 3
+
+Gisela 10 11 12
