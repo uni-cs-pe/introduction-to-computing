@@ -2,6 +2,14 @@
 # Comprueba que el entorno del curso funciona. Todas las líneas deben decir "ok".
 set -u
 
+# Fuera del entorno (en la terminal de la laptop) algunas herramientas faltan o son otras,
+# y el resultado no dice nada sobre el entorno del curso.
+if [ ! -f /.dockerenv ] && [ ! -f /run/.containerenv ]; then
+    echo "Están fuera del entorno del curso: esta es la terminal de su computadora."
+    echo "Abran primero el entorno con   bash env/run.sh   y, ya dentro, repitan   env/check.sh"
+    exit 1
+fi
+
 tmp="$(mktemp -d)"
 trap 'rm -rf "$tmp"' EXIT
 status=0

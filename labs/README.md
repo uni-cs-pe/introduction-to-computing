@@ -118,6 +118,11 @@ ok    el programa en C se ejecuta
 Todas las líneas deben decir `ok`. Si alguna dice `FALLA`, copien el mensaje y avisen al
 docente.
 
+> **Córranlo dentro del contenedor, no en la terminal de su laptop.** Fíjense en la línea
+> donde escriben: debe empezar con `root@`. Fuera del contenedor, `env/check.sh` no
+> comprueba nada y les pide abrir primero el entorno. Lo mismo vale para compilar y
+> ejecutar los programas del curso: siempre dentro.
+
 ### El trabajo de cada día
 
 1. Abrir Docker Desktop.
@@ -151,6 +156,7 @@ Cada laboratorio trae un `Makefile`, así que normalmente basta con `make` y `ma
 | El codespace no abre o se desconecta | Conexión o cuota agotada | Revisar la conexión y el uso en <https://github.com/codespaces>; avisar al docente |
 | `permission denied` al ejecutar | El archivo no es ejecutable o se llamó sin `./` | `chmod +x archivo` o usar `./programa` |
 | `command not found` | Están fuera del entorno | Comprobar que la terminal es la del codespace o del contenedor |
+| `env/check.sh` dice "Están fuera del entorno del curso" | Lo corrieron en la terminal de la laptop | Correr `bash env/run.sh` y repetir `env/check.sh` cuando la línea empiece con `root@` |
 | `undefined reference to sqrt` | Falta la biblioteca matemática | Agregar `-lm` al final del comando |
 | `dubious ownership` de Git | Carpeta de otro usuario | Abrir la carpeta desde `env/run.sh` |
 | `docker: command not found` | Docker no está instalado, o la terminal se abrió antes de instalarlo | Cerrar y volver a abrir la terminal; si sigue, repetir el paso 1 |
